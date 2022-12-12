@@ -11,7 +11,7 @@ through ML/DL model utilizing Macroeconomic factors.
 #### models: DNN, Random Forest
 #### Benchmark: Logistic Regression
 
-#### Architecture of a DNN model: Multilayers Perceptron, BatchNormalization, Dropout, AutoEncoder
+#### Architecture of a DNN model: Multilayers Perceptron, BatchNormalization, Dropout
 
-
-###Currently implementing a Rebalancing Model.
+#### RandomizedSearch CV for Randoem Forest Model. 
+#### parameters tuned: n_estimators, max_features, min_samples_split, min_samples_leaf 
