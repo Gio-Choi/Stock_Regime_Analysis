@@ -23,6 +23,7 @@ Logistic Regression을 성능을 벤치마크로 하며 DNN과 RandomForest 모�
  ## 2. 과제 주요내용
  ### 개발 환경 및 언어 : 
  개발 환경 : Colab, Jupyter Notebook
+ 
  언어 : 파이썬
  
  ### 데이터 셋 :
@@ -47,6 +48,7 @@ Logistic Regression을 성능을 벤치마크로 하며 DNN과 RandomForest 모�
 |Export Price Index|[U.S. Bureau of Labor Statistics, Export Price Index (End Use): All Commodities ](https://fred.stlouisfed.org/series/IQ)|
 
 ((추가예정)) 각 데이터 셋의 분포를 맷플롯립으로 시각화한 그림. 
+
 ((추가예정)) x값 10가지와 Y값이 모두 담긴 데이터 프레임 그림. 
 
 ### Output: 
@@ -62,6 +64,7 @@ Logistic Regression을 성능을 벤치마크로 하며 DNN과 RandomForest 모�
    오버피팅을 막기 위해서는 K fold cross validation (split 5)을 진행했습니다. Cross validation이 아닌 단순히 train set과 test set을 8대2 비중으로 나누고도 분석을 진행했습니다.  이외에도, BatchNormalization과 Drop out도 적용했습니다. 입력층과 은닉층 이후 매번 Batchnormalization을 진행했고, Drop out의 비율은 0.2로 했습니다. 
 
 ((추가예정)) 최종적으로 사용한 Neural Network의 구조 사진. 
+
 ((추가 예정))Batch Normalization과 Drop out에 관한 설명.
 
 ### Random Forest:
