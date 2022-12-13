@@ -46,6 +46,9 @@ Logistic Regression을 성능을 벤치마크로 하며 DNN과 RandomForest 모�
 |Coincident Economic Activity Index|[Federal Reserve Bank of Philadelphia, Coincident Economic Activity Index for the United States](https://fred.stlouisfed.org/series/USPHCI)|
 |Export Price Index|[U.S. Bureau of Labor Statistics, Export Price Index (End Use): All Commodities ](https://fred.stlouisfed.org/series/IQ)|
 
+((추가예정)) 각 데이터 셋의 분포를 맷플롯립으로 시각화한 그림. 
+((추가예정)) x값 10가지와 Y값이 모두 담긴 데이터 프레임 그림. 
+
 ### Output: 
 
 종속변수인 S&P 500 지수가 저번 달 대비 이번 달의 변화율이 음수면 0, 0보다 크거나 같으면 1로 라벨링하였고 아래와 같은 모델들을 통해 classification을 진행했습니다. 매달 영업일 기준 첫 날을 기준으로 하였습니다.
@@ -58,6 +61,9 @@ Logistic Regression을 성능을 벤치마크로 하며 DNN과 RandomForest 모�
      
    오버피팅을 막기 위해서는 K fold cross validation (split 5)을 진행했습니다. Cross validation이 아닌 단순히 train set과 test set을 8대2 비중으로 나누고도 분석을 진행했습니다.  이외에도, BatchNormalization과 Drop out도 적용했습니다. 입력층과 은닉층 이후 매번 Batchnormalization을 진행했고, Drop out의 비율은 0.2로 했습니다. 
 
+((추가예정)) 최종적으로 사용한 Neural Network의 구조 사진. 
+((추가 예정))Batch Normalization과 Drop out에 관한 설명.
+
 ### Random Forest:
 
 Random Forest는 맨 처음 Scikit-learn의 디폴트 설정으로 분석을 진행해보았지만 성능이 너무 낮게 나와 파라미터들을 조정해가며 성능을 올려보았습니다. 이를 위해 가능한 파라미터들을 전부 리스트로 넣어준 후 RandomizedSearchCV를 활용해 어떤 파라미터의 조합이 가장 성능이 높게 나오는지 테스트해보았습니다. 
@@ -66,6 +72,7 @@ Random Forest는 맨 처음 Scikit-learn의 디폴트 설정으로 분석을 진
 
 그 결과 최종적으로 선택한 파라미터는 n_estimators 800, min_samples_split 10,  min_samples_leaf 4, max_depth 50, bootstrap: True 입니다.
 
+((추가 예정)) 랜덤포레스트 모델 그림으로 보여주기
 
 ## 3. 수행 결과
 ### 과제수행 결과:
