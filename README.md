@@ -15,11 +15,19 @@ Historical Data로 주식 시장의 국면을 분석하려는 연구는 활발�
  개발 환경 : Colab, Jupyter Notebook
  언어 : 파이썬
  ### 데이터 셋 :
- |종류|사용한 데이터 셋|
+ |종류|출처|
  |---|---|
- |주식 시장 국면|[S&P500](https://finance.yahoo.com/quote/%5EGSPC/)|
- |VIX| [CBOE Volatility Index: VIX](https://fred.stlouisfed.org/series/VIXCLS)|
- |||
+ |Stock Regime|[S&P500](https://finance.yahoo.com/quote/%5EGSPC/)|
+ |Volatility Index| [CBOE Volatility Index: VIX](https://fred.stlouisfed.org/series/VIXCLS)|
+ |Consumer Price Index|[Consumer Price Index for All Urban Consumers: All Items in U.S. City Average](https://fred.stlouisfed.org/series/CPIAUCSL)|
+ |M2|[Board of Governors of the Federal Reserve System (US), M2](https://fred.stlouisfed.org/series/M2SL)|
+ |Federal Fund Effective Rate|[Board of Governors of the Federal Reserve System (US), Federal Funds Effective Rate](https://fred.stlouisfed.org/series/FEDFUNDS)|
+ |Interest Rate Spreads|[ 10-Year Treasury Constant Maturity Minus 2-Year Treasury Constant Maturity ](https://fred.stlouisfed.org/series/T10Y2Y)|
+ |Corporate Bond|[Moody's Daily Corporate Bond Yield Averages](https://fred.stlouisfed.org/series/AAA)|
+|Unemployment Rate|[U.S. Bureau of Labor Statistics, Unemployment Rate](https://fred.stlouisfed.org/series/UNRATE)|
+|Producer Price Index|[U.S. Bureau of Labor Statistics, Producer Price Index by Industry: Total Manufacturing Industries](https://fred.stlouisfed.org/series/PCUOMFGOMFG)|
+|Coincident Economic Activity Index|[Federal Reserve Bank of Philadelphia, Coincident Economic Activity Index for the United States](https://fred.stlouisfed.org/series/USPHCI)|
+|Export Price Index|[U.S. Bureau of Labor Statistics, Export Price Index (End Use): All Commodities ](https://fred.stlouisfed.org/series/IQ)|
 
 
 
