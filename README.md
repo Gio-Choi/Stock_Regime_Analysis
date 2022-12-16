@@ -79,6 +79,9 @@ Logistic Regression을 성능을 벤치마크로 하며 DNN과 RandomForest 모�
 
 <p align="center"> Fig 3. The Architecture of DNN model </p>
 
+#### Batch Normalization and Drop Out:
+설명 추가 예정.
+
 ### Random Forest:
 
 Random Forest는 맨 처음 Scikit-learn의 디폴트 설정으로 분석을 진행해보았지만 성능이 너무 낮게 나와 파라미터들을 조정해가며 성능을 올려보았습니다. 이를 위해 가능한 파라미터들을 전부 리스트로 넣어준 후 RandomizedSearchCV를 활용해 어떤 파라미터의 조합이 가장 성능이 높게 나오는지 테스트해보았습니다. 
